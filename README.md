@@ -1,4 +1,4 @@
-# Citi_Bike
+# Citi Bike
 
 En este proyecto se realizará un análisis exploratorio de los datos a partir de un conjunto de datos (dataset) sobre el uso de un programa de bicicletas compartidas. Para responder las preguntas de negocio que se plantean se deberá entender la estructura de los datos, analizarlos y construir visualizaciones que permitan comunicar los hallazgos.
 
