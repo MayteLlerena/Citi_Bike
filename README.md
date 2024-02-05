@@ -26,9 +26,11 @@ Además se debe presentar un reporte que presente la siguiente información:
 
   ✔¿qué conclusiones generales puedes sacar? ¿Qué patrones o insights descubriste? ¿Alguna recomendación?.
 
-➍ Herramientas que se usaron
+➞ Herramientas que se usaron
 
 ❏ Big Query (SQL).
+
 ❏ Power BI. 
+
 
  
