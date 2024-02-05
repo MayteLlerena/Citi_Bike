@@ -10,17 +10,17 @@ Además se debe presentar un reporte que presente la siguiente información:
 
 ❶ Métricas de uso de un día promedio: 
 
-  ✔ Número de viajes que se realizan en promedio cada día
-  ✔ Max, min, promedio, desviación estándar de la duración de un viaje
+  ✔ Número de viajes que se realizan en promedio cada día.
+  ✔ Max, min, promedio, desviación estándar de la duración de un viaje.
 
 ❷ Métricas históricas: 
 
   ✔ Total de viajes (acumulado)
-  ✔ Crecimiento del número de viajes diarios a lo largo del tiempo
-  ✔ Total de viajes por usuarios, según género, edad y/o tipo de subscripción
+  ✔ Crecimiento del número de viajes diarios a lo largo del tiempo.
+  ✔ Total de viajes por usuarios, según género, edad y/o tipo de subscripción.
 
 ❸ Conclusiones y recomendaciones:
 
-  ✔En función de los resultados de tu análisis, ¿qué conclusiones generales puedes sacar? ¿Qué patrones o insights descubriste? ¿Alguna recomendación?
+  ✔En función de los resultados de tu análisis, ¿qué conclusiones generales puedes sacar? ¿Qué patrones o insights descubriste? ¿Alguna recomendación?.
 
  
