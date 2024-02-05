@@ -22,8 +22,8 @@ Además se debe presentar un reporte que presente la siguiente información:
   
   ✔ Total de viajes por usuarios, según género, edad y/o tipo de subscripción.
 
-❸ Conclusiones y recomendaciones:
+❸ Conclusiones y recomendaciones (En función de los resultados del análisis):
 
-  ✔En función de los resultados de tu análisis, ¿qué conclusiones generales puedes sacar? ¿Qué patrones o insights descubriste? ¿Alguna recomendación?.
+  ✔¿qué conclusiones generales puedes sacar? ¿Qué patrones o insights descubriste? ¿Alguna recomendación?.
 
  
