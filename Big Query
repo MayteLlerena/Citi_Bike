@@ -1,0 +1,122 @@
+➊ Identificar nulos:
+
+SELECT
+  COUNTIF(tripduration IS NULL) AS tripduration,
+  COUNTIF(starttime IS NULL) AS starttime,
+  COUNTIF(stoptime IS NULL) AS stoptime,
+  COUNTIF(start_station_id IS NULL) AS start_station_id,
+  COUNTIF(start_station_name IS NULL) AS start_station_name,
+  COUNTIF(start_station_latitude IS NULL) AS start_station_latitude,
+  COUNTIF(start_station_longitude IS NULL) AS start_station_longitude,
+  COUNTIF(end_station_id IS NULL) AS end_station_id,
+  COUNTIF(end_station_name IS NULL) AS end_station_name,
+  COUNTIF(end_station_latitude IS NULL) AS end_station_latitude,
+  COUNTIF(end_station_longitude IS NULL) AS end_station_longitude,
+  COUNTIF(bikeid IS NULL) AS bikeid,
+  COUNTIF(usertype IS NULL) AS usertype,
+  COUNTIF(birth_year IS NULL) AS birth_year,
+  COUNTIF(gender IS NULL) AS gender,
+  COUNTIF(customer_plan IS NULL) AS customer_plan,
+FROM
+  `bigquery-public-data.new_york_citibike.citibike_trips`;
+
+➋ Identificar duplicados:
+
+SELECT
+  tripduration,
+  starttime,
+  stoptime,
+  start_station_id,
+  start_station_name,
+  start_station_latitude,
+  start_station_longitude,
+  end_station_id,
+  end_station_name,
+  end_station_latitude,
+  end_station_longitude,
+  bikeid,
+  usertype,
+  birth_year,
+  gender,
+  customer_plan,
+  COUNT(*) AS cantidad_duplicados
+FROM
+  `bigquery-public-data.new_york_citibike.citibike_trips`
+GROUP BY
+  tripduration,
+  starttime,
+  stoptime,
+  start_station_id,
+  start_station_name,
+  start_station_latitude,
+  start_station_longitude,
+  end_station_id,
+  end_station_name,
+  end_station_latitude,
+  end_station_longitude,
+  bikeid,
+  usertype,
+  birth_year,
+  gender,
+  customer_plan
+HAVING
+  COUNT(*) > 1;
+
+➌ Limpieza base de datos y creación de nuevas variables:
+
+SELECT
+tripduration/60 AS tripduration_minutos,
+FORMAT_DATETIME('%F', starttime) AS start_date,
+FORMAT_DATETIME('%T', starttime) AS start_time,
+FORMAT_DATETIME('%F', stoptime) AS stop_date,
+FORMAT_DATETIME('%T', stoptime) AS stop_time,
+start_station_id,
+start_station_name,
+start_station_latitude,
+start_station_longitude,
+end_station_id,
+end_station_name,
+end_station_latitude,
+end_station_longitude,
+bikeid,
+usertype,
+birth_year,
+2023-birth_year AS age,
+gender,
+customer_plan
+FROM `bigquery-public-data.new_york_citibike.citibike_trips` 
+WHERE (birth_year IS NULL OR birth_year IS NOT NULL) AND tripduration IS NOT NULL 
+
+➍ Creación de nueva variable - se guarda como view 'tabla'
+
+SELECT *, SUBSTR(start_date,1,4) AS year,
+CASE
+        WHEN age >= 18 AND age <= 25 THEN 'Young 18-25'
+        WHEN age >= 26 AND age <= 35 THEN 'Young adult 26-35'
+        WHEN age >= 36 AND age <= 50 THEN 'Middle Adults 36-50'
+        WHEN age >= 51 AND age <= 65 THEN 'Older Adults 51-65'
+        WHEN age >= 66 AND age <= 90 THEN 'Elderly 66-90'
+        ELSE 'Otro'
+        END AS age_category
+FROM `citibike-412818.pruebas.tabla_general`
+WHERE (age<=90) 
+
+➎ Creación de nuevas variables - se guarda como view 'promedio_viajes_por_dia'
+
+SELECT
+  fecha,
+  AVG(numero_de_viajes) AS promedio_numero_de_viajes_por_dia,
+  EXTRACT(YEAR FROM DATE(fecha)) AS year
+FROM (
+  SELECT
+    DATE(start_date) AS fecha,
+    COUNT(bikeid) AS numero_de_viajes
+  FROM `citibike-412818.pruebas.tabla`
+  GROUP BY fecha
+)
+GROUP BY fecha, year;
+
+
+
+
+
