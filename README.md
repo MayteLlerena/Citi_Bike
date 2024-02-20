@@ -1,12 +1,12 @@
 # Citi Bike
 
-En este proyecto realice un análisis exploratorio de los datos sobre el uso de un programa de bicicletas compartidas. Para responder las preguntas de negocio que se plantean se deberá entender la estructura de los datos, analizarlos y construir visualizaciones que permitan comunicar los hallazgos.
+En este proyecto realicé un análisis exploratorio de los datos sobre el uso de un programa de bicicletas compartidas. Para responder las preguntas de negocio se debe entender la estructura de los datos, analizarlos y construir visualizaciones que permitan comunicar los hallazgos.
 
-Para construir el reporte se utilizará la información pública del programa Citi Bike New York City, el programa de bicicletas compartidas más grande de los Estados Unidos. Este conjunto de datos público está alojado en Google BigQuery y se puede acceder a él por medio del siguiente enlace: 
+Para construir el reporte utilice la información pública del programa Citi Bike New York City, el programa de bicicletas compartidas más grande de los Estados Unidos. Este conjunto de datos público está alojado en Google BigQuery y se puede acceder a él por medio del siguiente enlace: 
 
 NYC Citi Bike Trips - 'https://bit.ly/481aGEt' 
 
-Además se debe presentar un reporte que presente la siguiente información:
+Además se presentó un reporte que contiene la siguiente información:
 
 ❶ Métricas de uso de un día promedio: 
 
@@ -24,7 +24,7 @@ Además se debe presentar un reporte que presente la siguiente información:
 
 ❸ Conclusiones y recomendaciones (En función de los resultados del análisis):
 
-  ✔¿qué conclusiones generales puedes sacar? ¿Qué patrones o insights descubriste? ¿Alguna recomendación?.
+  ✔¿Qué conclusiones generales pude sacar? ¿Qué patrones o insights descubrí? ¿Alguna recomendación?.
 
 # ➞ Herramientas que se usaron
 
