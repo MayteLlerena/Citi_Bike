@@ -1,6 +1,6 @@
 # Citi Bike
 
-En este proyecto se realizará un análisis exploratorio de los datos a partir de un conjunto de datos (dataset) sobre el uso de un programa de bicicletas compartidas. Para responder las preguntas de negocio que se plantean se deberá entender la estructura de los datos, analizarlos y construir visualizaciones que permitan comunicar los hallazgos.
+En este proyecto realice un análisis exploratorio de los datos sobre el uso de un programa de bicicletas compartidas. Para responder las preguntas de negocio que se plantean se deberá entender la estructura de los datos, analizarlos y construir visualizaciones que permitan comunicar los hallazgos.
 
 Para construir el reporte se utilizará la información pública del programa Citi Bike New York City, el programa de bicicletas compartidas más grande de los Estados Unidos. Este conjunto de datos público está alojado en Google BigQuery y se puede acceder a él por medio del siguiente enlace: 
 
