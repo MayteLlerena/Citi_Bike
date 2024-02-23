@@ -30,7 +30,7 @@ Además se presentó un reporte que contiene la siguiente información:
 
 ❏ Big Query (SQL).
 
-❏ Power BI. 
+❏ Power BI.
 
 
  
