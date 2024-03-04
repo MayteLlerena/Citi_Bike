@@ -28,6 +28,6 @@ Además se presentó un reporte que contiene la siguiente información:
 
 # ➞ Herramientas que se usaron
 
-❏ Big Query (SQL).
+❏ BigQuery (SQL).
 
-❏ Power BI.
+❏ PowerBI.
