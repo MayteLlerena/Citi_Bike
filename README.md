@@ -2,7 +2,7 @@
 
 El programa de Citi Bike es un sistema de bicicletas compartidas que opera en la ciudad de Nueva York. Este programa permite a los residentes y visitantes de la ciudad alquilar bicicletas por períodos cortos de tiempo para desplazamientos urbanos. Funciona mediante la instalación de estaciones de bicicletas automatizadas en toda la ciudad, donde los usuarios pueden tomar prestadas bicicletas con solo unos pocos pasos simples.
 
-## ¿Cuál fue el objetivo? 
+## Objetivo del proyecto 
 
 Analizar el funcionamiento del sistema de bicicletas compartidas de CitiBike durante el periodo 2013-2018 y buscar insights específicos, se presenta un reporte con la siguiente información
 
