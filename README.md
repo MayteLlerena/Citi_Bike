@@ -6,28 +6,30 @@ Para construir el reporte utilice la información pública del programa Citi Bik
 
 NYC Citi Bike Trips - 'https://bit.ly/481aGEt' 
 
-Además se presentó un reporte que contiene la siguiente información:
+## Objetivo
+
+Presentar un reporte que contenga la siguiente información:
 
 ❶ Métricas de uso de un día promedio: 
 
-  ✔ Número de viajes que se realizan en promedio cada día.
+  ▪️ Número de viajes que se realizan en promedio cada día.
   
-  ✔ Max, min, promedio, desviación estándar de la duración de un viaje.
+  ▪️ Max, min, promedio, desviación estándar de la duración de un viaje.
 
 ❷ Métricas históricas: 
 
-  ✔ Total de viajes (acumulado).
+  ▪️ Total de viajes (acumulado).
   
-  ✔ Crecimiento del número de viajes diarios a lo largo del tiempo.
+  ▪️ Crecimiento del número de viajes diarios a lo largo del tiempo.
   
-  ✔ Total de viajes por usuarios, según género, edad y/o tipo de subscripción.
+  ▪️ Total de viajes por usuarios, según género, edad y/o tipo de subscripción.
 
 ❸ Conclusiones y recomendaciones (En función de los resultados del análisis):
 
-  ✔¿Qué conclusiones generales pude sacar? ¿Qué patrones o insights descubrí? ¿Alguna recomendación?.
+  ▪️ ¿Qué conclusiones generales pude sacar? ¿Qué patrones o insights descubrí? ¿Alguna recomendación?.
 
 # ➞ Herramientas que se usaron
 
-❏ BigQuery (SQL).
+▪️ BigQuery (SQL).
 
-❏ PowerBI.
+▪️ PowerBI.
