@@ -1,5 +1,9 @@
 # Citi Bike
 
+<h1 align="center"> Hi, I'm Mayte! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1> 
+
+
+
 En este proyecto realicé un análisis exploratorio de los datos sobre el uso de un programa de bicicletas compartidas. Para responder las preguntas de negocio se debe entender la estructura de los datos, analizarlos y construir visualizaciones que permitan comunicar los hallazgos.
 
 Para construir el reporte utilice la información pública del programa Citi Bike New York City, el programa de bicicletas compartidas más grande de los Estados Unidos. Este conjunto de datos público está alojado en Google BigQuery y se puede acceder a él por medio del siguiente enlace: 
