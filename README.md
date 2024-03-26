@@ -50,5 +50,9 @@ El proyecto se desarrolló a través de las siguientes etapas:
 
 ▪️ Aquí: https://bit.ly/3TME907
 
+## Dashboard 
+
+![Citi_Bike](https://raw.githubusercontent.com/MayteLlerena/Citi_Bike/main/Dashboard.png) 
+
 
 
